@@ -11,24 +11,24 @@ ZPlat.PreloadState = {
     this.load.setPreloadSprite(this.preloadBar);
 
     //load game assets    
-    this.load.image('platform', 'assets/images/platform.png');
-    this.load.image('goal', 'assets/images/goal.png');
-    this.load.image('slime', 'assets/images/slime.png');
-    this.load.spritesheet('player', 'assets/images/player_spritesheet.png', 28, 90, 5, 1, 1); 
-    this.load.spritesheet('fly', 'assets/images/fly_spritesheet.png', 35, 18, 2, 1, 2);    
-    this.load.image('arrowButton', 'assets/images/arrowButton.png');    
-    this.load.image('background', 'assets/images/background.png');
-    this.load.image('backgroundUrbanStage', 'assets/images/urban_background.jpg');
-    this.load.image('menuBackground', 'assets/images/menu_background.png');
-    this.load.image('actionButton', 'assets/images/actionButton.png'); 
+    this.load.image('platform', './assets/images/platform.png');
+    this.load.image('goal', './assets/images/goal.png');
+    this.load.image('slime', './assets/images/slime.png');
+    this.load.spritesheet('player', './assets/images/player_spritesheet.png', 28, 90, 5, 1, 1); 
+    this.load.spritesheet('fly', './assets/images/fly_spritesheet.png', 35, 18, 2, 1, 2);    
+    this.load.image('arrowButton', './assets/images/arrowButton.png');    
+    this.load.image('background', './assets/images/background.png');
+    this.load.image('backgroundUrbanStage', './assets/images/urban_background.jpg');
+    this.load.image('menuBackground', './assets/images/menu_background.png');
+    this.load.image('actionButton', './assets/images/actionButton.png'); 
     
-    this.load.image('gameTiles', 'assets/images/tiles_spritesheet.png');    
-    this.load.tilemap('level1', 'assets/levels/level1.json', null, Phaser.Tilemap.TILED_JSON);
-    this.load.tilemap('level2', 'assets/levels/level2.json', null, Phaser.Tilemap.TILED_JSON);
-    this.load.tilemap('level3', 'assets/levels/level3.json', null, Phaser.Tilemap.TILED_JSON);
-    this.load.tilemap('level4', 'assets/levels/level4.json', null, Phaser.Tilemap.TILED_JSON);
+    this.load.image('gameTiles', './assets/images/tiles_spritesheet.png');    
+    this.load.tilemap('level1', './assets/levels/level1.json', null, Phaser.Tilemap.TILED_JSON);
+    this.load.tilemap('level2', './assets/levels/level2.json', null, Phaser.Tilemap.TILED_JSON);
+    this.load.tilemap('level3', './assets/levels/level3.json', null, Phaser.Tilemap.TILED_JSON);
+    this.load.tilemap('level4', './assets/levels/level4.json', null, Phaser.Tilemap.TILED_JSON);
     
-    this.load.audio('backgroundAudio', 'assets/audio/backgroundSound.ogg');
+    this.load.audio('backgroundAudio', './assets/audio/backgroundSound.ogg');
     
   },
   create: function() {
